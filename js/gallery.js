@@ -50,6 +50,10 @@ function swapPhoto()
 		//aux = 1;
 	}
 	//alert('here');
+    console.log(mCurrentIndex);
+    console.log(mImages);
+
+    
 	$('#photo').attr('src',mImages[mCurrentIndex].imgPath);
 	
 	$('.location').html('Location: '+mImages[mCurrentIndex].imgLocation);
@@ -114,10 +118,12 @@ function showMoar(){
 	
 }
 
-function loadData(url)
+function loadData()
 {
 	
-	if(url == null || url == ''){
+    var url = getUrlParameter('gallery');
+    
+	if(url == null || url == '' || typeof url == undefined){
 		url = 'images.json';
 		mCurrentIndex = 0;
 		mImages = [];
@@ -196,3 +202,20 @@ function GalleryImage() {
 			img ='';
 			HTMLImageObject ='';
 }
+
+
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
