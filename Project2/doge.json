@@ -1,0 +1,34 @@
+{
+    "images": [
+        {
+            "imgPath": "img/doge/doge1.jpg",
+            "imgLocation": "Doge Town",
+            "description": "Loch Ard Doge",
+            "date": "01/01/2016"
+        },
+        {
+            "imgPath": "img/doge/doge2.jpg",
+            "imgLocation": "Dogeslia",
+            "description": "Austrian chapel de lo Doge",
+            "date": "01/02/2016"
+        },
+        {
+            "imgPath": "img/doge/doge3.jpg",
+            "imgLocation": "Paris",
+            "description": "Eiffel Doge Tower wow",
+            "date": "01/03/2016"
+        },
+        {
+            "imgPath": "img/doge/doge4.gif",
+            "imgLocation": "Greece",
+            "description": "Greek coastline Dogegif",
+            "date": "01/04/2016"
+        },
+        {
+            "imgPath": "img/doge/doge4.jpg",
+            "imgLocation": "Hungary",
+            "description": "Budapest skyline Dogecoin",
+            "date": "01/05/2016"
+        }
+  ]
+}
