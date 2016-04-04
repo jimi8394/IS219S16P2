@@ -3,13 +3,13 @@
         {
             "imgPath": "img/doge/doge1.jpg",
             "imgLocation": "Doge Town",
-            "description": "Loch Ard Doge",
+            "description": "Dog 1",
             "date": "01/01/2016"
         },
         {
             "imgPath": "img/doge/doge2.jpg",
             "imgLocation": "Dogeslia",
-            "description": "Austrian chapel de lo Doge",
+            "description": "Dog 2",
             "date": "01/02/2016"
         },
         {
@@ -21,7 +21,7 @@
         {
             "imgPath": "img/doge/doge4.gif",
             "imgLocation": "Greece",
-            "description": "Greek coastline Dogegif",
+            "description": "Greek coastline Doge.gif",
             "date": "01/04/2016"
         },
         {
